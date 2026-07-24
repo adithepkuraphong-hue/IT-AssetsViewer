@@ -1,0 +1,11 @@
+.git
+.agents
+.vscode
+node_modules
+**/node_modules
+chrome-profile
+**/chrome-profile
+outputs/*.log
+outputs/*.err
+.DS_Store
+Thumbs.db

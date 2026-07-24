@@ -1,0 +1,12 @@
+# Chrome browser profile (auto-generated, not needed in repo)
+work/chrome-profile/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
