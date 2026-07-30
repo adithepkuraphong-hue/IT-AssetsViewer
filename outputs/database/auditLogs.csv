@@ -1,5 +1,7 @@
 ﻿username,name,action,target,desc,time
-admin,Admin User Test,เพิ่ม,ข้อมูลหลัก (departments),เพิ่มข้อมูลหลัก Code: SM (SALES & MARKETING),2026-07-24 11:16:34
+admin,Admin User Test,ลบ,ทรัพย์สินคอมพิวเตอร์,ลบทรัพย์สิน Code: KOCH-TEST (- -),2026-07-30 11:31:47
+admin,Admin User Test,เพิ่ม,ทรัพย์สินคอมพิวเตอร์,เพิ่มข้อมูลทรัพย์สิน Code: KOCH-TEST (- -),2026-07-30 11:31:14
+admin,Admin User Test,เพิ่ม,ข้อมูลหลัก (departments),เพิ่มข้อมูลหลั��� Code: SM (SALES & MARKETING),2026-07-24 11:16:34
 admin,Admin User Test,แก้ไข,ทรัพย์สินคอมพิวเตอร์,แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14),2026-07-24 11:10:31
 admin,Admin User Test,แก้ไข,ทรัพย์สินคอมพิวเตอร์,แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-004 (DELL Pro 14),2026-07-24 11:04:26
 admin,Admin User Test,แก้ไข,ทรัพย์สินคอมพิวเตอร์,แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-035 (DELL Pro 14),2026-07-24 11:04:00

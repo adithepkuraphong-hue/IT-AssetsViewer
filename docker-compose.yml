@@ -11,7 +11,7 @@ services:
       - ASSET_CONTROL_PORT=8788
       - ASSET_CONTROL_HOST=0.0.0.0
       # You can override Supabase settings here if needed
-      # - SUPABASE_URL=https://wuaguygiahaiptlamqvt.supabase.co
+      # - SUPABASE_URL=https://tzmiavpdslpmpzowabxa.supabase.co
       # - SUPABASE_ANON_KEY=your_supabase_key
       # - ASSET_CONTROL_API_TOKEN=your_api_token
     volumes:

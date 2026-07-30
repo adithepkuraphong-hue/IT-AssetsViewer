@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const SUPABASE_URL = "https://wuaguygiahaiptlamqvt.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1YWd1eWdpYWhhaXB0bGFtcXZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE4OTgwOTksImV4cCI6MjA5NzQ3NDA5OX0.cBiVs8-rl9wboPv3TD093ANetJHTc_Q7Ao96ktngPTw";
+const SUPABASE_URL = "https://tzmiavpdslpmpzowabxa.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6bWlhdnBkc2xwbXB6b3dhYnhhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4ODE3MTAsImV4cCI6MjEwMDQ1NzcxMH0.oYobcUzpQRO2OdBvsKmW0aBNaCYDE1f6N1vF5gXkzIk";
 const ASSET_CONTROL_API_TOKEN = "ae30e5720054020b4a2525fbf70819e48065e4dcb6d900f5";
 
 const LOCAL_DB_PATH = "./outputs/database/asset-control-database.json";

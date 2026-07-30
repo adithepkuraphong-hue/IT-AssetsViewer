@@ -13,8 +13,8 @@ const WORKSPACE_ROOT = path.resolve(ROOT, "..");
 const EXPORT_SCRIPT = path.join(WORKSPACE_ROOT, "work", "export_database.mjs");
 const PORT = Number(process.env.ASSET_CONTROL_PORT || 8787);
 const HOST = process.env.ASSET_CONTROL_HOST || "127.0.0.1";
-const SUPABASE_URL = (process.env.SUPABASE_URL || "https://wuaguygiahaiptlamqvt.supabase.co").replace(/\/$/, "");
-const SUPABASE_KEY = process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1YWd1eWdpYWhhaXB0bGFtcXZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE4OTgwOTksImV4cCI6MjA5NzQ3NDA5OX0.cBiVs8-rl9wboPv3TD093ANetJHTc_Q7Ao96ktngPTw";
+const SUPABASE_URL = (process.env.SUPABASE_URL || "https://tzmiavpdslpmpzowabxa.supabase.co").replace(/\/$/, "");
+const SUPABASE_KEY = process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR6bWlhdnBkc2xwbXB6b3dhYnhhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ4ODE3MTAsImV4cCI6MjEwMDQ1NzcxMH0.oYobcUzpQRO2OdBvsKmW0aBNaCYDE1f6N1vF5gXkzIk";
 const ASSET_CONTROL_API_TOKEN = process.env.ASSET_CONTROL_API_TOKEN || "ae30e5720054020b4a2525fbf70819e48065e4dcb6d900f5";
 const SUPABASE_ENABLED = Boolean(SUPABASE_URL && SUPABASE_KEY && ASSET_CONTROL_API_TOKEN);
 
