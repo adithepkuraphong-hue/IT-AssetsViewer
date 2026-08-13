@@ -57,11 +57,16 @@ function renderMaintenanceRequestForm(modal) {
 function renderCheckoutFormModal(modal) {
   const group = modal.assetGroup || "computer";
   const source = listForGroup(group);
-  const available = source.filter(item => {
-    if (group === "computer") return isAvailableComputer(item);
+  const availableForGroup = assetGroup => listForGroup(assetGroup).filter(item => {
+    if (assetGroup === "computer") return isAvailableComputer(item);
     const status = normalize(item.status);
     return status.includes("ไม่ได้") || status.includes("ว่าง") || status === "unknown" || status === "ไม่ระบุ";
   });
+  const availableByGroup = {
+    computer: availableForGroup("computer"),
+    other: availableForGroup("other"),
+  };
+  const available = availableByGroup[group];
   let visible = sortByAlpha(available.length ? available : source, "assetCode").slice(0, 80);
   if (modal.selectedAssetCode) {
     const newlyAddedItem = source.find(item => item.assetCode === modal.selectedAssetCode);
@@ -78,7 +83,7 @@ function renderCheckoutFormModal(modal) {
   const purposeVal = pending.purpose !== undefined ? pending.purpose : "";
 
   const body = `
-    ${formSection("ข้อมูลทรัพย์สิน", "", `<div class="segmented"><button class="${group === "computer" ? "active" : ""}" data-modal-asset-group="computer">Assets Computer (${available.length || DATA.computerAssets.length})</button><button class="${group === "other" ? "active" : ""}" data-modal-asset-group="other">Assets Other (${available.length || DATA.otherAssets.length})</button></div><div class="field"><label>ทรัพย์สิน <span class="required">*</span></label><div style="display: flex; gap: 8px;"><select class="select" data-checkout-field="asset" style="flex: 1;">${visible.map(item => {
+    ${formSection("ข้อมูลทรัพย์สิน", "", `<div class="segmented"><button class="${group === "computer" ? "active" : ""}" data-modal-asset-group="computer">Assets Computer (${availableByGroup.computer.length})</button><button class="${group === "other" ? "active" : ""}" data-modal-asset-group="other">Assets Other (${availableByGroup.other.length})</button></div><div class="field"><label>ทรัพย์สิน <span class="required">*</span></label><div style="display: flex; gap: 8px;"><select class="select" data-checkout-field="asset" style="flex: 1;">${visible.map(item => {
       const val = assetRef(group, source.indexOf(item));
       const sel = (modal.selectedAssetCode && item.assetCode === modal.selectedAssetCode) ? "selected" : "";
       return `<option value="${esc(val)}" ${sel}>${esc(item.assetCode)} - ${esc(item.brand || "-")} ${esc(item.model || item.type || "")}</option>`;

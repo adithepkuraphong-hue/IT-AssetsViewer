@@ -80,7 +80,7 @@ function renderAssetTable(items, group, pageKey) {
   const showRustDesk = isComputerRoute;
   
   const page = paged(items, pageKey);
-  const headers = `<tr><th>${t("Asset Code ↑", "Asset Code ↑")}</th>${showRustDesk ? `<th>${t("RustDesk ID", "RustDesk ID")}</th>` : ""}<th>${t("ประเภท", "Type")}</th><th>${t("บริษัท", "Company")}</th><th>${t("ผู้ใช้งาน / สถานที่", "User / Location")}</th><th>${t("สถานะ", "Status")}</th><th></th></tr>`;
+  const headers = `<tr><th>${t("Asset Code ↑", "Asset Code ↑")}</th>${showRustDesk ? `<th>${t("RustDesk ID", "RustDesk ID")}</th>` : ""}<th>${t("ประเภท", "Type")}</th><th>${t("บริษัท", "Company")}</th><th>${t("ผู้ใช้งาน / สถานที่", "User / Location")}</th><th>${t("สถานะ", "Status")}</th><th>${t("แก้ไขล่าสุด", "Last Updated")}</th><th></th></tr>`;
   const rows = page.items.map(item => {
     const assetGroup = item.group || (isComputerRoute ? "computer" : "other");
     const source = listForGroup(assetGroup);
@@ -97,10 +97,11 @@ function renderAssetTable(items, group, pageKey) {
     <td>${esc(item.company)}</td>
     <td>${esc(userOrLoc)}</td>
     <td><span class="status-pill ${statusClass(item.status)}">${esc(item.status)}</span></td>
+    <td>${item.updatedAt ? esc(new Date(item.updatedAt).toLocaleString(state.lang === "en" ? "en-GB" : "th-TH", { dateStyle: "short", timeStyle: "short" })) : "-"}</td>
     <td class="action-cell">${assetActionButton(assetGroup, index, item.assetCode)}</td>
   </tr>`;
   }).join("");
-  return `<div class="table-wrap"><table><thead>${headers}</thead><tbody>${rows || `<tr><td colspan="7"><div class="empty-state">${t("ไม่พบข้อมูลตามเงื่อนไข", "No records match the filters.")}</div></td></tr>`}</tbody></table></div>`;
+  return `<div class="table-wrap"><table><thead>${headers}</thead><tbody>${rows || `<tr><td colspan="${showRustDesk ? 8 : 7}"><div class="empty-state">${t("ไม่พบข้อมูลตามเงื่อนไข", "No records match the filters.")}</div></td></tr>`}</tbody></table></div>`;
 }
 
 // --- Action menu ---

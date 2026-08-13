@@ -844,6 +844,7 @@ async function commitAssetSave(payload) {
   const targetGroup = assetGroupForType(item.type);
   const sourceList = listForGroup(group);
   const targetList = listForGroup(targetGroup);
+  item.updatedAt = new Date().toISOString();
   const normalizedItem = assetForGroup(item, targetGroup);
   const isComputer = targetGroup === "computer";
   if (Number.isInteger(index) && index >= 0 && group === targetGroup) {

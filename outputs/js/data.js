@@ -127,6 +127,7 @@ function assetForGroup(item, group) {
     warrantyExpirationDate: item.warrantyExpirationDate || "-",
     remark: remark,
     imageUrl: imageUrl,
+    updatedAt: item.updatedAt || "",
     sourceSheet: item.sourceSheet ?? null,
     sourceRow: item.sourceRow ?? null,
     user: item.user || "-",
