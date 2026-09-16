@@ -1,7 +1,7 @@
 window.ASSET_CONTROL_DATA = {
   "sourceFile": "Asset Management (2).xlsx",
   "sourceId": "Asset Management (2).xlsx:1781925095:40982",
-  "generatedAt": "2026-09-15T06:42:46.466Z",
+  "generatedAt": "2026-09-16T07:01:18.422Z",
   "computerAssets": [
     {
       "id": 1,
@@ -533,7 +533,7 @@ window.ASSET_CONTROL_DATA = {
       "brand": "Lenovo",
       "model": "ThinkPad 20 SDS1BV00 X390",
       "mouse": true,
-      "remark": "ม��สายชาร์จ",
+      "remark": "RAM 8, Win 11 pro (Debloated)",
       "serial": "PC-1KVYZV",
       "status": "ใช้งาน",
       "adapter": true,
@@ -544,7 +544,7 @@ window.ASSET_CONTROL_DATA = {
       "assetCode": "TNB-IT-NB-26-003",
       "laptopBag": false,
       "sourceRow": 48,
-      "updatedAt": "",
+      "updatedAt": "2026-09-16T07:00:07.004Z",
       "department": "IT",
       "rustDeskId": "1501240046",
       "sourceSheet": null,
@@ -3099,16 +3099,16 @@ window.ASSET_CONTROL_DATA = {
       "user": "-",
       "brand": "Lenovo",
       "model": "Lenovo ADLX65YLC3D",
-      "remark": "",
+      "remark": "เพิ่มจากหน้าเว็บ",
       "serial": "S/N: 8SSA10R16872L1CZ",
-      "status": "ไม่ระ���ุ",
+      "status": "ไม่ได้ใช้งาน",
       "company": "KOCH",
       "imageUrl": "",
       "location": "-",
       "position": "-",
       "assetCode": "KOCH-IT-AD-26-004",
       "sourceRow": 45,
-      "updatedAt": "",
+      "updatedAt": "2026-09-16T07:01:18.170Z",
       "department": "-",
       "sourceSheet": null,
       "purchaseDate": "-",
@@ -4527,6 +4527,33 @@ window.ASSET_CONTROL_DATA = {
   "auditLogs": [
     {
       "id": 1,
+      "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-AD-26-004 (Lenovo Lenovo ADLX65YLC3D)",
+      "name": "Admin User Test",
+      "time": "2026-09-16 14:01:18",
+      "action": "แก้ไข",
+      "target": "ทรัพย์สินอื่นๆ",
+      "username": "admin"
+    },
+    {
+      "id": 2,
+      "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-AD-26-004 (Lenovo Lenovo ADLX65YLC3D)",
+      "name": "Admin User Test",
+      "time": "2026-09-16 14:01:10",
+      "action": "แก้ไข",
+      "target": "ทรัพย์สินอื่นๆ",
+      "username": "admin"
+    },
+    {
+      "id": 3,
+      "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-003 (Lenovo ThinkPad 20 SDS1BV00 X390)",
+      "name": "Admin User Test",
+      "time": "2026-09-16 14:00:07",
+      "action": "แก้ไข",
+      "target": "ทรัพย์สินคอมพิวเตอร์",
+      "username": "admin"
+    },
+    {
+      "id": 4,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-001 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:42:46",
@@ -4535,7 +4562,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 2,
+      "id": 5,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-003 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:42:36",
@@ -4544,7 +4571,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 3,
+      "id": 6,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-002 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:42:27",
@@ -4553,7 +4580,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 4,
+      "id": 7,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-003 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:39:47",
@@ -4562,7 +4589,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 5,
+      "id": 8,
       "desc": "ลบทรัพย์สิน Code: KOCH-IT-GW-26-003 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:38:40",
@@ -4571,7 +4598,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 6,
+      "id": 9,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-003 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:38:05",
@@ -4580,7 +4607,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 7,
+      "id": 10,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-001 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:35:49",
@@ -4589,7 +4616,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 8,
+      "id": 11,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-002 (TP-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 13:34:50",
@@ -4598,7 +4625,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 9,
+      "id": 12,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-GW-26-001 (Tp-Link ER7206)",
       "name": "Admin User Test",
       "time": "2026-09-15 11:57:14",
@@ -4607,7 +4634,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 10,
+      "id": 13,
       "desc": "เพิ่มข้อมูลหลัก Code: GW (Gateway)",
       "name": "Admin User Test",
       "time": "2026-09-15 11:52:24",
@@ -4616,7 +4643,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 11,
+      "id": 14,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-005 (HP ProBOOK 450 G8)",
       "name": "Admin User Test",
       "time": "2026-09-15 08:42:51",
@@ -4625,7 +4652,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 12,
+      "id": 15,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-037 (HP Probook)",
       "name": "Admin User Test",
       "time": "2026-09-15 08:29:37",
@@ -4634,7 +4661,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 13,
+      "id": 16,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-023 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-12 11:33:56",
@@ -4643,7 +4670,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 14,
+      "id": 17,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-040 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-09-11 13:49:14",
@@ -4652,7 +4679,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 15,
+      "id": 18,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-006 (Acer Aspire C24-1300)",
       "name": "Admin User Test",
       "time": "2026-09-11 11:33:45",
@@ -4661,7 +4688,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 16,
+      "id": 19,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-006 (Acer Aspire C24-1300)",
       "name": "Admin User Test",
       "time": "2026-09-11 11:33:26",
@@ -4670,7 +4697,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 17,
+      "id": 20,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-001 (Lenovo ThinkCentre)",
       "name": "Admin User Test",
       "time": "2026-09-11 11:25:49",
@@ -4679,7 +4706,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 18,
+      "id": 21,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-014 (acer Aspire A515-47)",
       "name": "Admin User Test",
       "time": "2026-09-10 16:51:19",
@@ -4688,7 +4715,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 19,
+      "id": 22,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-014 (acer Aspire A515-47)",
       "name": "Admin User Test",
       "time": "2026-09-10 16:29:48",
@@ -4697,7 +4724,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 20,
+      "id": 23,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-014 (acer Aspire A515-47)",
       "name": "Admin User Test",
       "time": "2026-09-10 12:48:59",
@@ -4706,7 +4733,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 21,
+      "id": 24,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-034 (acer Nitro AN515-58)",
       "name": "Admin User Test",
       "time": "2026-09-09 15:29:20",
@@ -4715,7 +4742,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 22,
+      "id": 25,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-09 13:54:33",
@@ -4724,7 +4751,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 23,
+      "id": 26,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-034 (acer Nitro AN515-58)",
       "name": "Admin User Test",
       "time": "2026-09-09 13:50:50",
@@ -4733,7 +4760,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 24,
+      "id": 27,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-08 16:42:38",
@@ -4742,7 +4769,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 25,
+      "id": 28,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-08 16:11:22",
@@ -4751,7 +4778,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 26,
+      "id": 29,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-08 13:47:30",
@@ -4760,7 +4787,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 27,
+      "id": 30,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-09-08 13:46:48",
@@ -4769,7 +4796,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 28,
+      "id": 31,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-008 (ASUS Vivobook)",
       "name": "Admin User Test",
       "time": "2026-09-08 13:37:55",
@@ -4778,7 +4805,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 29,
+      "id": 32,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-008 (ASUS Vivobook)",
       "name": "Admin User Test",
       "time": "2026-09-04 16:45:16",
@@ -4787,7 +4814,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 30,
+      "id": 33,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-008 (ASUS Vivobook)",
       "name": "Admin User Test",
       "time": "2026-09-04 15:53:46",
@@ -4796,7 +4823,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 31,
+      "id": 34,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-007 (Apple Air M.2)",
       "name": "Admin User Test",
       "time": "2026-09-04 09:35:20",
@@ -4805,7 +4832,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 32,
+      "id": 35,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-0014 (acer Swift go 14)",
       "name": "Admin User Test",
       "time": "2026-09-03 15:56:48",
@@ -4814,7 +4841,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 33,
+      "id": 36,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-0014 (acer Swift go 14)",
       "name": "Admin User Test",
       "time": "2026-09-03 15:56:18",
@@ -4823,7 +4850,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 34,
+      "id": 37,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: NB-NEW-001 (acer Swift go 14)",
       "name": "Admin User Test",
       "time": "2026-09-03 15:45:53",
@@ -4832,7 +4859,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 35,
+      "id": 38,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-020 (HP EliteBook 830)",
       "name": "Admin User Test",
       "time": "2026-09-03 11:09:29",
@@ -4841,7 +4868,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 36,
+      "id": 39,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-031 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-09-03 11:08:27",
@@ -4850,7 +4877,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 37,
+      "id": 40,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-005 (HP ProBOOK 450 G8)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:56:05",
@@ -4859,7 +4886,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 38,
+      "id": 41,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-037 (HP Probook)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:48:57",
@@ -4868,7 +4895,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 39,
+      "id": 42,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-041 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:26:13",
@@ -4877,7 +4904,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 40,
+      "id": 43,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-041 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:26:05",
@@ -4886,7 +4913,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 41,
+      "id": 44,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-042 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:18:18",
@@ -4895,7 +4922,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 42,
+      "id": 45,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-010 (ASUS Vivobook)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:16:17",
@@ -4904,7 +4931,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 43,
+      "id": 46,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-016 (acer Aspire AL16-51P)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:15:43",
@@ -4913,7 +4940,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 44,
+      "id": 47,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-012 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-09-03 10:12:31",
@@ -4922,7 +4949,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 45,
+      "id": 48,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-037 (HP Probook)",
       "name": "Admin User Test",
       "time": "2026-09-03 09:53:41",
@@ -4931,7 +4958,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 46,
+      "id": 49,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-037 (HP Probook)",
       "name": "Admin User Test",
       "time": "2026-09-03 09:45:46",
@@ -4940,7 +4967,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 47,
+      "id": 50,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-009 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-29 13:16:15",
@@ -4949,7 +4976,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 48,
+      "id": 51,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-042 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-29 12:52:15",
@@ -4958,7 +4985,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 49,
+      "id": 52,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-041 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-29 11:12:26",
@@ -4967,7 +4994,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 50,
+      "id": 53,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-031 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-08-27 10:06:32",
@@ -4976,7 +5003,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 51,
+      "id": 54,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-040 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-27 10:06:23",
@@ -4985,7 +5012,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 52,
+      "id": 55,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-040 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-27 10:05:32",
@@ -4994,7 +5021,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 53,
+      "id": 56,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-004 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-27 09:19:42",
@@ -5003,7 +5030,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 54,
+      "id": 57,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-016 (acer Aspire AL16-51P)",
       "name": "Admin User Test",
       "time": "2026-08-27 09:15:04",
@@ -5012,7 +5039,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 55,
+      "id": 58,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-031 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-08-27 09:00:31",
@@ -5021,7 +5048,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 56,
+      "id": 59,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-020 (HP EliteBook 830)",
       "name": "Admin User Test",
       "time": "2026-08-14 18:27:49",
@@ -5030,7 +5057,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 57,
+      "id": 60,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-039 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-14 17:44:11",
@@ -5039,7 +5066,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 58,
+      "id": 61,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-020 (HP EliteBook 830)",
       "name": "Admin User Test",
       "time": "2026-08-14 17:43:39",
@@ -5048,7 +5075,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 59,
+      "id": 62,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-006 (acer Swift SFG14-41)",
       "name": "Admin User Test",
       "time": "2026-08-14 17:37:13",
@@ -5057,7 +5084,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 60,
+      "id": 63,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-039 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-14 13:57:56",
@@ -5066,7 +5093,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 61,
+      "id": 64,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-0 (Windows Surface Pro)",
       "name": "Admin User Test",
       "time": "2026-08-14 13:57:22",
@@ -5075,7 +5102,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 62,
+      "id": 65,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-034 (acer Nitro AN515-58)",
       "name": "Admin User Test",
       "time": "2026-08-14 08:18:54",
@@ -5084,7 +5111,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 63,
+      "id": 66,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-006 (acer Swift SFG14-41)",
       "name": "Admin User Test",
       "time": "2026-08-13 16:38:39",
@@ -5093,7 +5120,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 64,
+      "id": 67,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-015 (acer Aspire A315-24P)",
       "name": "Admin User Test",
       "time": "2026-08-11 08:45:32",
@@ -5102,7 +5129,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 65,
+      "id": 68,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-015 (acer Aspire A315-24P)",
       "name": "Admin User Test",
       "time": "2026-08-11 08:21:10",
@@ -5111,7 +5138,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 66,
+      "id": 69,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-016 (acer Aspire AL16-51P)",
       "name": "Admin User Test",
       "time": "2026-08-10 11:21:54",
@@ -5120,7 +5147,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 67,
+      "id": 70,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-016 (acer Aspire AL16-51P)",
       "name": "Admin User Test",
       "time": "2026-08-10 11:18:50",
@@ -5129,7 +5156,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 68,
+      "id": 71,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-016 (acer Aspire AL16-51P)",
       "name": "Admin User Test",
       "time": "2026-08-10 08:36:59",
@@ -5138,7 +5165,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 69,
+      "id": 72,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-006 (acer Swift SFG14-41)",
       "name": "Admin User Test",
       "time": "2026-08-07 11:59:58",
@@ -5147,7 +5174,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 70,
+      "id": 73,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-005 (Acer Aspire c24-1300)",
       "name": "Admin User Test",
       "time": "2026-08-07 10:20:58",
@@ -5156,7 +5183,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 71,
+      "id": 74,
       "desc": "แก้ไขรายการ: หน้าจอเสีย (สถานะ: กำลังดำเนินการ)",
       "name": "Admin User Test",
       "time": "2026-08-06 08:31:25",
@@ -5165,7 +5192,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 72,
+      "id": 75,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-005 (Acer Aspire c24-1300)",
       "name": "Admin User Test",
       "time": "2026-08-03 20:26:07",
@@ -5174,7 +5201,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 73,
+      "id": 76,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-005 (Acer Aspire c24-1300)",
       "name": "Admin User Test",
       "time": "2026-08-03 20:25:56",
@@ -5183,7 +5210,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 74,
+      "id": 77,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-012 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-08-03 19:00:15",
@@ -5192,7 +5219,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 75,
+      "id": 78,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-08-03 18:55:18",
@@ -5201,7 +5228,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 76,
+      "id": 79,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:12:23",
@@ -5210,7 +5237,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 77,
+      "id": 80,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:12:03",
@@ -5219,7 +5246,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 78,
+      "id": 81,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-PC-26-005 (Acer Aspire c24-1300)",
       "name": "Admin User Test",
       "time": "2026-08-03 18:06:00",
@@ -5228,7 +5255,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 79,
+      "id": 82,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-014 (HP ProBOOK 450 G8)",
       "name": "Admin User Test",
       "time": "2026-08-03 17:59:53",
@@ -5237,7 +5264,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 80,
+      "id": 83,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-036 (Acer Swift SF314-510G)",
       "name": "Admin User Test",
       "time": "2026-08-03 14:47:52",
@@ -5246,7 +5273,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 81,
+      "id": 84,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-08-03 14:44:41",
@@ -5255,7 +5282,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 82,
+      "id": 85,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-023 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-03 10:08:43",
@@ -5264,7 +5291,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 83,
+      "id": 86,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-03 09:39:58",
@@ -5273,7 +5300,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 84,
+      "id": 87,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-03 09:38:53",
@@ -5282,7 +5309,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 85,
+      "id": 88,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-08-01 14:38:20",
@@ -5291,7 +5318,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 86,
+      "id": 89,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-015 (acer Aspire A315-24P)",
       "name": "Admin User Test",
       "time": "2026-08-01 10:55:09",
@@ -5300,7 +5327,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 87,
+      "id": 90,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-015 (acer Aspire A315-24P)",
       "name": "Admin User Test",
       "time": "2026-08-01 09:33:16",
@@ -5309,7 +5336,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 88,
+      "id": 91,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-31 14:33:10",
@@ -5318,7 +5345,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 89,
+      "id": 92,
       "desc": "ลบทรัพย์สิน Code: KOCH-TEST (- -)",
       "name": "Admin User Test",
       "time": "2026-07-30 11:31:47",
@@ -5327,7 +5354,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 90,
+      "id": 93,
       "desc": "เพิ่มข้อมูลทรัพย์สิน Code: KOCH-TEST (- -)",
       "name": "Admin User Test",
       "time": "2026-07-30 11:31:14",
@@ -5336,7 +5363,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 91,
+      "id": 94,
       "desc": "เพิ่มข้อมูลหลั��� Code: SM (SALES & MARKETING)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:16:34",
@@ -5345,7 +5372,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 92,
+      "id": 95,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:10:31",
@@ -5354,7 +5381,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 93,
+      "id": 96,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-004 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:04:26",
@@ -5363,7 +5390,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 94,
+      "id": 97,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-035 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:04:00",
@@ -5372,7 +5399,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 95,
+      "id": 98,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-023 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:03:32",
@@ -5381,7 +5408,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 96,
+      "id": 99,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-009 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:02:36",
@@ -5390,7 +5417,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 97,
+      "id": 100,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-009 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:01:47",
@@ -5399,7 +5426,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 98,
+      "id": 101,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-010 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-24 11:00:34",
@@ -5408,7 +5435,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 99,
+      "id": 102,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-002 (Samsung Galaxy Tab S10 Lite 5G)",
       "name": "Admin User Test",
       "time": "2026-07-23 14:16:42",
@@ -5417,7 +5444,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 100,
+      "id": 103,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-001 (Samsung Galaxy Tab S10 Lite 5G)",
       "name": "Admin User Test",
       "time": "2026-07-23 14:16:30",
@@ -5426,7 +5453,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 101,
+      "id": 104,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-004 (Huawei Huawei MatePad 11.5S 2026)",
       "name": "Admin User Test",
       "time": "2026-07-23 14:12:59",
@@ -5435,7 +5462,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 102,
+      "id": 105,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-001 (Samsung Galaxy Tab S10 Lite 5G)",
       "name": "pppp",
       "time": "2026-07-23 10:56:18",
@@ -5444,7 +5471,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "user"
     },
     {
-      "id": 103,
+      "id": 106,
       "desc": "แก้ไขรายการ: หน้าจอเสีย (สถานะ: กำลังดำเนินการ)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:30:26",
@@ -5453,7 +5480,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 104,
+      "id": 107,
       "desc": "แก้ไขรายการ: หน้าจอเสีย (สถานะ: กำลังดำเนินการ)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:28:02",
@@ -5462,7 +5489,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 105,
+      "id": 108,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: TNB-IT-NB-26-004 (DELL Pro 14)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:24:54",
@@ -5471,7 +5498,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 106,
+      "id": 109,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:17:44",
@@ -5480,7 +5507,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 107,
+      "id": 110,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-NB-26-004 (HP ZBOOK)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:16:44",
@@ -5489,7 +5516,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 108,
+      "id": 111,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-003 (Huawei Huawei MatePad 11.5S 2026)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:10:27",
@@ -5498,7 +5525,7 @@ window.ASSET_CONTROL_DATA = {
       "username": "admin"
     },
     {
-      "id": 109,
+      "id": 112,
       "desc": "แก้ไขข้อมูลทรัพย์สิน Code: KOCH-IT-TAB-26-003 (Huawei Huawei MatePad 11.5S 2026)",
       "name": "Admin User Test",
       "time": "2026-07-23 10:10:03",
