@@ -1,4 +1,7 @@
 ﻿assetCode,company,type,brand,model,serial,location,room,purchaseDate,status,warrantyExpirationDate,remark,imageUrl,updatedAt
+KOCH-IT-GW-26-003,KOCH,Gateway,TP-Link,ER7206,22641C1001371,Bang Saen (บางแสน),-,-,ไม่ได้ใช้งาน,-,SYNNEX : M001599127,"https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789454386555_F-127.jpg,https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789454386996_B-127.jpg",2026-09-15T06:42:36.831Z
+KOCH-IT-GW-26-002,KOCH,Gateway,TP-Link,ER7206,22641C1001800,Bang Saen (บางแสน),-,-,ไม่ได้ใช้งาน,-,SYNNEX : M001599125,"https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789454088513_F-125.jpg,https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789454090020_B-125.jpg",2026-09-15T06:42:27.711Z
+KOCH-IT-GW-26-001,KOCH,Gateway,TP-Link,ER7206,2264276000245,Bang Saen (บางแสน),-,-,ไม่ได้ใช้งาน,-,SYNNEX : M001707095,"https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789448233006_F-095.jpg,https://tzmiavpdslpmpzowabxa.supabase.co/storage/v1/object/public/asset-images/img_1789448234109_B-095.jpg",2026-09-15T06:42:46.216Z
 TNB-IT-NET-26-003,TNB,NET,AIS FiberHome,AIS 3BB Fiber Wifi BE3600 HGU HG6142HT,GPON SN: FHTTC235D9BE,บางแสน เครื่องปริ้น konica bitzub c227,เครื่องปริ้น konica bitzub c227,2026-04-30,ใช้งาน,2028-04-30,หมายเลขอินเทอร์เน็ต : 8806816909 (อุปกรณ์เช่า),,
 TNB-IT-NET-26-004,TNB,NET,AIS FiberHome,AIS 3BB Fiber Wifi BE3600 HGU HG6142HT,GPON SN: FHTTC235DA83,บางแสน,-,2026-04-30,เสีย,2028-04-30,หมายเลขอินเทอร์เน็ต : 8806816909 (อุปกรณ์เช่า) เปลี่ยนไปใช้ TNB-IT-NET-26-007,,
 TNB-IT-NET-26-005,SPD,NET,AIS FiberHome,AIS 3BB Fiber Wifi BE3600 HGU HG6142HT,GPON SN: FHTTC235DA1F,บางแสน,-,2026-04-30,ใช้งาน,2028-04-30,SPD-BS SPDBS#9898 หมายเลขอินเทอร์เน็ต : 8806817068 (อุปกรณ์เช่า),,
@@ -30,7 +33,7 @@ TNB-IT-CCTV-26-007,TNB,CCTV,Eagle Eye,Eagle Eye Duo Lens Wifi Smart Camera,S/N:2
 TNB-IT-CCTV-26-008,TNB,CCTV,Eagle Eye,Eagle Eye Duo Lens Wifi Smart Camera,S/N:2522371212007,บางแสน ห้อง IT,ห้อง IT,-,ใช้งาน,-,,,
 TNB-IT-CCTV-26-009,TNB,CCTV,Eagle Eye,Eagle Eye Duo Lens Wifi Smart Camera,S/N:2622380110676,บางแสน ห้อง IT,ห้อง IT,-,ใช้งาน,-,,,
 TNB-IT-CCTV-26-010,TNB,CCTV,Eagle Eye,Eagle Eye Duo Lens Wifi Smart Camera,S/N:2622380110675,บางแสน ห้อง IT,ห้อง IT,-,ใช้งาน,-,,,
-TNB-IT-NET-26-001,TNB,NET,AIS FiberHome,AIS 3BB Fiber Wifi BE3600 HGU HG6142HT,GPON SN: FHTTC24AC827,ศรีราชา,-,2026-04-25,ใช้งาน,2028-04-25,หมายเลขอินเทอร์เน็ต : 8806803905 เบอร์ช่าง: 0848219946 (อุปกรณ์เช่า),,
+TNB-IT-NET-26-001,TNB,NET,AIS FiberHome,AIS 3BB Fiber Wifi BE3600 HGU HG6142HT,GPON SN: FHTTC24AC827,ศรีราชา,-,2026-04-25,ใช้งาน,2028-04-25,หมายเลขอิน��ทอร์เน็ต : 8806803905 เบอร์ช่าง: 0848219946 (อ��ปกรณ์เช่า),,
 KOCH-IT-MON-26-001,KOCH,Monitor,AOC,22B30HM2,230RAHA002519,Bang Saen (บางแสน),-,-,ใช้งาน,-,มีสาย adapter,,
 KOCH-IT-MON-26-002,KOCH,Monitor,AOC,22B30HM2,230RAHA002558,Bang Saen (บางแสน),-,-,ใช้งาน,-,,,
 KOCH-IT-RT-26-001,KOCH,router,ZTE,ZTE F6201B,D-SN:ZTEEQNMR9B02385,บางแสน ห้อง Costing,ห้อง Costing,-,ใช้งาน,-,,,
